@@ -1,0 +1,125 @@
+*{padding:0; margin:0}
+body{background: #ddd;}
+.container {
+	background: #000;
+	width: 1170px;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+.sidebar {
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding: 150px 20px 20px 80px;
+}
+.sidebar img {
+	width: 75%;
+	border-radius: 50%;
+}
+.sidebar h1 {
+	font-family: calibri;
+	font-size: 29px;
+	letter-spacing: 5px;
+	color: #e4b80c;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+.sidebar h3 {
+	font-family: calibri;
+	font-size: 17px;
+	letter-spacing: 3px;
+	color: #e4b80c;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.navbar {
+	padding: 0;
+	margin: 0;
+}
+.navbar ul {
+	list-style: none;
+	padding-top: 40px;
+}
+.navbar ul li {
+	border-bottom: 3px solid #e4b80c;
+	padding: 20px;
+}
+.navbar ul li:last-child{border-bottom: none;}
+.navbar ul li a {
+	text-decoration: none;
+	color: #e4b80c;
+	font-family: calibri;
+	text-transform: uppercase;
+	padding: 15px;
+}
+.navbar ul li a:hover{
+	color: #b5ff31;
+	padding-left: 10px;
+	transition: .5s;
+	text-shadow: 2px 2px 5px;
+}
+.footer p {
+	color: #e4b80c;
+}
+.footer {
+	padding-top: 200px;
+}
+.content {
+	padding: 5%;
+	float: right;
+	width: 50%;
+}
+.content h1 {
+	font-family: calibri;
+	padding-top: 25%;
+	font-size: 50px;
+	letter-spacing: 10px;
+	color: #b5ff31;
+	text-transform: uppercase;
+}
+.about {
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+.content h3 {
+	font-family: calibri;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	color: #b5ff31;
+}
+.content p {
+	font-family: calibri;
+	font-size: 20px;
+	text-align: justify;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	color: #e4b80c;
+	line-height: 30px;
+}
+.content p span{color: #b5ff31;}
+
+.education {
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+.education h1{}
+.education p {
+	font-family: calibri;
+	margin-top: 50px;
+	font-size: 34px;
+	letter-spacing: 5px;
+}
+.education ul {
+	list-style: disclosure-closed;
+	margin-top: 100px;
+}
+.education ul li {
+	color: #B5FF31;
+	font-family: calibri;
+	padding: 25px 10px 10px 5px;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
